@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div id="nextShapeContainer">
+		<div id="nextShapeLabel"><b>Next</b></div>
+		<canvas id="nextShapeCanvas"></canvas>
+	</div>
+
+	<div id="gameContainer">
+		<div id="titleLabel"><b>LETRIS</b></div>
+        <canvas id="gameCanvas" width="320" height="640"></canvas>
+        <div id="pauseLabel">PAUSED</div>
+		<div id="gameOverLabel">GAME OVER</div>
+		<div id="instructionsLabel">← Left&nbsp;&nbsp;↓ Accelerate&nbsp;&nbsp;→ Right<br>[Space / ↑] Turn<br>[P]ause&nbsp;&nbsp;&nbsp;[F5] Restart</div>
+		<div id="createdByLabel">Letris, a Tetris clone, 2024 by <a href="https://www.blumgames.com/" target=_blank>Lee Blum</a>&nbsp;
+			(<a href="https://github.com/theLeeBlum/letris" target=_blank>GitHub</a>)<br>Tetris was created in 1985 by Alexey Pajitnov</div>
+    </div>
+	
+	<div id="scoreLabel"><b>Score</b><br>0<br><br><b>Level</b><br>1</div>
+	
+    <script src="script.js"></script>
+	
+</body>
+</html>
